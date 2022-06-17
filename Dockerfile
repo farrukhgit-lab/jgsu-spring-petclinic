@@ -1,5 +1,5 @@
 FROM openjdk:11
-mkdir -p /usr/src/project
+MKDIR -p /usr/src/project
 COPY target/*.jar /usr/src/project
 #WORKDIR /usr/src/myapp
 #RUN java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar
