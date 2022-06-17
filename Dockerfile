@@ -5,3 +5,4 @@ WORKDIR /usr/src/project
 #RUN java -jar spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar
 EXPOSE 8080
 #CMD ["java -jar", "Main"]
+#ENTRYPOINT [ "node", "app.js" ]
